@@ -1,0 +1,46 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.10.0
+scrapy>=2.9.0
+lxml>=4.9.0
+
+# Database dependencies
+sqlalchemy>=2.0.0
+alembic>=1.8.0
+psycopg2-binary>=2.9.0
+
+# Caching dependencies
+redis>=4.5.0
+python-redis-cache>=0.1.0
+
+# Data analysis dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization dependencies
+plotly>=5.15.0
+dash>=2.11.0
+matplotlib>=3.7.0
+
+# Notification dependencies
+smtplib-ssl>=1.0.0
+twilio>=8.0.0
+pushbullet.py>=0.12.0
+
+# Async dependencies
+aiohttp>=3.8.0
+asyncio>=3.4.0
+
+# Development dependencies
+pytest>=7.0
+pytest-mock>=3.11.0
+pytest-cov>=4.0
+black>=22.0
+flake8>=5.0
+mypy>=1.0
+
+# Web scraping utilities
+fake-useragent>=1.2.0
+cloudscraper>=1.2.0

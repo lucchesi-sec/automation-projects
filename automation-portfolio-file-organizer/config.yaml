@@ -1,0 +1,103 @@
+# Smart File Organizer Configuration
+# This is the default configuration for the file organizer
+
+classification:
+  extensions:
+    documents:
+      - pdf
+      - doc
+      - docx
+      - txt
+      - rtf
+      - odt
+      - xls
+      - xlsx
+      - ppt
+      - pptx
+      - csv
+    images:
+      - jpg
+      - jpeg
+      - png
+      - gif
+      - bmp
+      - tiff
+      - svg
+      - webp
+      - ico
+      - raw
+    videos:
+      - mp4
+      - avi
+      - mkv
+      - mov
+      - wmv
+      - flv
+      - webm
+      - m4v
+      - 3gp
+      - mpg
+      - mpeg
+    audio:
+      - mp3
+      - wav
+      - flac
+      - aac
+      - ogg
+      - wma
+      - m4a
+      - opus
+      - aiff
+    archives:
+      - zip
+      - rar
+      - 7z
+      - tar
+      - gz
+      - bz2
+      - xz
+      - dmg
+      - iso
+    code:
+      - py
+      - js
+      - html
+      - css
+      - java
+      - cpp
+      - c
+      - h
+      - php
+      - rb
+      - go
+      - rs
+      - swift
+  patterns:
+    screenshots:
+      - screenshot
+      - screen_shot
+      - capture
+    downloads:
+      - download
+      - temp
+      - tmp
+    backups:
+      - backup
+      - bak
+      - old
+      - copy
+
+organization:
+  create_date_folders: false
+  duplicate_handling: rename  # Options: rename, skip, overwrite
+  preserve_structure: false
+
+scanner:
+  recursive: true
+  max_depth: 10
+  ignore_hidden: true
+  ignore_system: true
+
+logging:
+  level: INFO  # Options: DEBUG, INFO, WARNING, ERROR
+  file: file_organizer.log

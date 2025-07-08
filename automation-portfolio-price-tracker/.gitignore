@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & Database
+*.log
+logs/
+*.db
+*.sqlite3
+price_tracker.db
+
+# Scraped data
+data/
+scraped_data/
+price_history/
+screenshots/
+
+# Browser automation
+chromedriver
+geckodriver
+*.crx
+
+# Config files
+config/production.yaml
+config/secrets.yaml
+
+# Cache
+cache/
+redis_cache/

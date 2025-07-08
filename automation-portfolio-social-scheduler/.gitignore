@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+celery.log
+
+# Database
+*.db
+*.sqlite3
+social_scheduler.db
+
+# Media uploads
+uploads/
+media/
+temp_media/
+
+# Config files
+config/production.yaml
+config/secrets.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Social media cache
+twitter_cache/
+linkedin_cache/
+facebook_cache/

@@ -1,0 +1,50 @@
+# Core dependencies
+click>=8.0
+pyyaml>=6.0
+jinja2>=3.1.0
+python-dotenv>=1.0.0
+
+# Cloud platform SDKs
+boto3>=1.28.0
+azure-mgmt-resource>=23.0.0
+google-cloud-storage>=2.10.0
+
+# Container orchestration
+kubernetes>=26.1.0
+docker>=6.1.0
+
+# Infrastructure as Code
+python-terraform>=0.10.0
+pulumi>=3.75.0
+
+# CI/CD integrations
+github3.py>=4.0.0
+python-jenkins>=1.8.0
+gitlab-python>=3.15.0
+
+# Monitoring and logging
+prometheus-client>=0.16.0
+structlog>=23.1.0
+sentry-sdk>=1.28.0
+
+# Security scanning
+safety>=2.3.0
+bandit>=1.7.0
+semgrep>=1.32.0
+
+# Testing dependencies
+pytest>=7.0
+pytest-docker>=2.0.0
+pytest-cov>=4.0
+black>=22.0
+flake8>=5.0
+mypy>=1.0
+
+# Deployment utilities
+ansible>=8.0.0
+fabric>=3.1.0
+paramiko>=3.2.0
+
+# Database migrations
+alembic>=1.8.0
+sqlalchemy>=2.0.0

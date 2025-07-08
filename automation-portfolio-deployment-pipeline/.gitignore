@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.cache
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & Database
+*.log
+logs/
+*.db
+*.sqlite3
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+
+# Ansible
+*.retry
+hosts.ini
+group_vars/vault.yml
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# Secrets & Config
+secrets/
+config/production/
+*.pem
+*.key
+*.crt
+
+# Deployment artifacts
+deployments/
+releases/
+build_artifacts/
+
+# Monitoring
+prometheus_data/
+grafana_data/
